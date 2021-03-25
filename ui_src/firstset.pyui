@@ -1,0 +1,257 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 124}, {73, 29}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "E9A13AE6-2963-47CA-B1B2-0B2BF6BB3DB6",
+          "corner_radius" : 2,
+          "background_color" : "RGBA(1.000000,1.166667,1.166667,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "border_color" : "RGBA(0.024345,0.024345,0.024345,1.000000)",
+          "border_width" : 2,
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "alignment" : "center",
+          "text" : "購入者コード",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "FFL(認証)キー",
+          "font_size" : 12
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{81, 124}, {170, 29}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "販売元から送られてきたコード",
+          "font_name" : "<System>",
+          "frame" : "{{82, 260}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "75F1F4F1-13D1-4C48-8D92-11C9F5A9031C",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "auth",
+          "font_size" : 7
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {296, 47}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "E9A13AE6-2963-47CA-B1B2-0B2BF6BB3DB6",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(0.725490,0.725490,0.725490,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 3,
+          "alignment" : "center",
+          "text" : "初期設定",
+          "text_color" : "RGBA(0.050562,0.050562,0.050562,1.000000)",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "認証設定",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{24, 168}, {245, 41}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "150A1275-4468-40C7-99DE-5AF0627A1F0C",
+          "corner_radius" : 4,
+          "background_color" : "RGBA(1.000000,1.041667,1.041667,1.000000)",
+          "frame" : "{{146, 260}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,1.000000,1.000000)",
+          "border_width" : 4,
+          "border_color" : "RGBA(0.207843,0.435294,1.000000,1.000000)",
+          "title" : "Twitter連携ボタン",
+          "action" : "link_twitter",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "oauth_bottun",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 227}, {284, 154}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "PRINT",
+          "alignment" : "center",
+          "frame" : "{{111, 260}, {150, 32}}",
+          "uuid" : "4A911BFF-BABB-4D4A-A656-14F1A5BBD58E",
+          "class" : "Label",
+          "text" : "",
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_size" : 12,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{253, 111}, {37, 12}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "6A34A776-C709-440B-BF14-A01B639A5CAC",
+          "corner_radius" : 2,
+          "background_color" : "RGBA(1.000000,1.083333,1.083333,1.000000)",
+          "frame" : "{{111, 260}, {150, 32}}",
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 2,
+          "alignment" : "center",
+          "text" : "貼り付け",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "label1",
+          "font_size" : 8
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{259, 124}, {25, 29}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "A47609EA-7F81-4C89-BC65-A19E5ED35F21",
+          "font_size" : 15,
+          "corner_radius" : 3,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{146, 260}, {80, 32}}",
+          "border_color" : "RGBA(0.207843,0.435294,1.000000,1.000000)",
+          "border_width" : 3,
+          "title" : "",
+          "action" : "paste",
+          "class" : "Button",
+          "name" : "button1",
+          "image_name" : "iob:clipboard_24"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{81, 72}, {170, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 12,
+          "frame" : "{{106, 265}, {150, 32}}",
+          "uuid" : "FCCB30F3-5CB1-4751-8A26-55242E9ED005",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "send_code",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 72}, {73, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "E9A13AE6-2963-47CA-B1B2-0B2BF6BB3DB6",
+          "corner_radius" : 2,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "border_color" : "RGBA(0.010835,0.011236,0.010300,1.000000)",
+          "border_width" : 2,
+          "alignment" : "center",
+          "text" : "販売元に送信用コード",
+          "text_color" : "RGBA(0.059925,0.059925,0.059925,1.000000)",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "FFL(認証)キー",
+          "font_size" : 10
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{253, 61}, {37, 10}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "6A34A776-C709-440B-BF14-A01B639A5CAC",
+          "corner_radius" : 2,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{111, 260}, {150, 32}}",
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 2,
+          "alignment" : "center",
+          "text" : "コピー",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "label1",
+          "font_size" : 8
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{259, 72}, {25, 31}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "A47609EA-7F81-4C89-BC65-A19E5ED35F21",
+          "name" : "button1",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{146, 260}, {80, 32}}",
+          "border_color" : "RGBA(0.207843,0.435294,1.000000,1.000000)",
+          "border_width" : 3,
+          "title" : "",
+          "action" : "copy_code",
+          "class" : "Button",
+          "image_name" : "iob:ios7_copy_32",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {296, 388}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "初期設定画面",
+      "enabled" : true,
+      "background_color" : "RGBA(0.200000,0.537255,0.298039,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

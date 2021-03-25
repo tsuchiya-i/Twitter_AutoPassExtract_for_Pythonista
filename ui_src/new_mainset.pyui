@@ -1,0 +1,499 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{8, 259}, {115, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "4C7B187D-7A46-422F-AAE3-692749D63B29",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{41, 52}, {150, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 3,
+          "tint_color" : "RGBA(0.411985,0.765115,0.823970,1.000000)",
+          "alignment" : "center",
+          "text" : "画像パス",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "画像認識",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{156, 259}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "on_img_switch",
+          "frame" : "{{90, 52}, {51, 31}}",
+          "class" : "Switch",
+          "background_color" : "RGBA(0.960000,1.000000,1.000000,1.000000)",
+          "value" : false,
+          "uuid" : "BAF705E8-0613-4FA0-8A7A-4774BF02A2F3",
+          "name" : "img_switch"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{8, 220}, {114, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "69688075-2463-4B57-8E71-BAF5C5572506",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{39, 16}, {150, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 3,
+          "alignment" : "center",
+          "text" : "アルファベット",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "アルファベット",
+          "font_size" : 16
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{156, 220}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "on_alpha_switch",
+          "frame" : "{{83, 25}, {51, 31}}",
+          "class" : "Switch",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "value" : false,
+          "uuid" : "26147655-16B1-45B6-A8BE-031B346ED269",
+          "name" : "alpha_switch"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{-2, 0}, {302, 44}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "3A0D74B0-4C54-43B9-875E-3E41191C4907",
+          "corner_radius" : 2,
+          "background_color" : "RGBA(0.725490,0.725490,0.725490,1.000000)",
+          "frame" : "{{41, 147}, {150, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 2,
+          "alignment" : "center",
+          "text" : "設定画面",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "label1",
+          "font_size" : 24
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{49, 84}, {206, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "",
+          "action" : "speed_controller",
+          "frame" : "{{16, 146}, {200, 34}}",
+          "uuid" : "1F64D11C-5548-4AFC-964A-1D9434BDA922",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "value" : 0.5,
+          "class" : "Slider",
+          "name" : "speed"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 84}, {48, 34}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label2",
+          "frame" : "{{41, 147}, {150, 32}}",
+          "uuid" : "C38680B4-D43B-4243-80C1-5CDF3BAF57BB",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "遅い",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{253, 84}, {47, 34}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{41, 147}, {150, 32}}",
+          "uuid" : "C38680B4-D43B-4243-80C1-5CDF3BAF57BB",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "速い",
+          "name" : "label2",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 52}, {115, 31}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "4C7B187D-7A46-422F-AAE3-692749D63B29",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{41, 52}, {150, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 3,
+          "tint_color" : "RGBA(0.411985,0.765115,0.823970,1.000000)",
+          "alignment" : "center",
+          "text" : "取得速度",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "画像認識",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 178}, {300, 34}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "69688075-2463-4B57-8E71-BAF5C5572506",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(0.000000,0.258427,0.073836,1.000000)",
+          "frame" : "{{39, 16}, {150, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 3,
+          "alignment" : "center",
+          "text" : "▼通常オフ推奨▼",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "",
+          "font_size" : 16
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{8, 126}, {231, 44}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{47, 152}, {150, 32}}",
+          "uuid" : "730930EA-B5BE-457F-A2CC-98472DBBBCA1",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "連続起動可能時間 約　　     秒",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "label3",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{164, 126}, {54, 44}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{47, 152}, {150, 32}}",
+          "uuid" : "DC8E14F8-1D9A-440A-982A-1F85D0600B3F",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "continuous_time",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{215, 343}, {79, 24}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 2,
+          "action" : "update",
+          "frame" : "{{110, 154}, {80, 32}}",
+          "title" : "アップデート",
+          "uuid" : "02BB4882-865B-4EE5-B6B5-912EFECF9DBF",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "class" : "Button",
+          "border_color" : "RGBA(0.250000,0.678571,1.000000,1.000000)",
+          "corner_radius" : 2,
+          "name" : "update",
+          "font_size" : 12
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{8, 298}, {201, 69}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 12,
+          "frame" : "{{75, 154}, {150, 32}}",
+          "uuid" : "37B200EC-C3A2-4F3D-B46C-C2376AE1F38E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "print",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{194, 12}, {106, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 16,
+          "frame" : "{{75, 154}, {150, 32}}",
+          "uuid" : "2CF7846E-EE47-4B66-B417-21D5C06A3356",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "version",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 375}, {300, 34}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "69688075-2463-4B57-8E71-BAF5C5572506",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(0.000000,0.258427,0.073836,1.000000)",
+          "frame" : "{{39, 16}, {150, 32}}",
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 3,
+          "alignment" : "center",
+          "text" : "▼起動時間拡張用連携▼",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "",
+          "font_size" : 16
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 411}, {142, 23}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "150A1275-4468-40C7-99DE-5AF0627A1F0C",
+          "corner_radius" : 4,
+          "background_color" : "RGBA(1.000000,1.041667,1.041667,1.000000)",
+          "frame" : "{{146, 260}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,1.000000,1.000000)",
+          "border_width" : 4,
+          "border_color" : "RGBA(0.207843,0.435294,1.000000,1.000000)",
+          "title" : "Twitter連携ボタン2",
+          "action" : "link_twitter2",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "oauth_bottun",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 466}, {142, 24}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "150A1275-4468-40C7-99DE-5AF0627A1F0C",
+          "corner_radius" : 4,
+          "background_color" : "RGBA(1.000000,1.041667,1.041667,1.000000)",
+          "frame" : "{{146, 260}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,1.000000,1.000000)",
+          "border_width" : 4,
+          "border_color" : "RGBA(0.207843,0.435294,1.000000,1.000000)",
+          "title" : "Twitter連携ボタン3",
+          "action" : "link_twitter3",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "oauth_bottun",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{158, 411}, {142, 23}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "150A1275-4468-40C7-99DE-5AF0627A1F0C",
+          "corner_radius" : 4,
+          "background_color" : "RGBA(1.000000,1.041667,1.041667,1.000000)",
+          "frame" : "{{146, 260}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,1.000000,1.000000)",
+          "border_width" : 4,
+          "border_color" : "RGBA(0.207843,0.435294,1.000000,1.000000)",
+          "title" : "Twitter連携ボタン4",
+          "action" : "link_twitter4",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "oauth_bottun",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{156, 466}, {142, 24}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "150A1275-4468-40C7-99DE-5AF0627A1F0C",
+          "corner_radius" : 4,
+          "background_color" : "RGBA(1.000000,1.041667,1.041667,1.000000)",
+          "frame" : "{{146, 260}, {80, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,1.000000,1.000000)",
+          "border_width" : 4,
+          "border_color" : "RGBA(0.207843,0.435294,1.000000,1.000000)",
+          "title" : "Twitter連携ボタン5",
+          "action" : "link_twitter5",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "oauth_bottun",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{8, 434}, {133, 24}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{47, 152}, {150, 32}}",
+          "uuid" : "730930EA-B5BE-457F-A2CC-98472DBBBCA1",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "未連携",
+          "font_size" : 18,
+          "name" : "link2"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{164, 434}, {130, 24}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "link4",
+          "frame" : "{{47, 152}, {150, 32}}",
+          "uuid" : "730930EA-B5BE-457F-A2CC-98472DBBBCA1",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "未連携",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 489}, {135, 22}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "link3",
+          "frame" : "{{47, 152}, {150, 32}}",
+          "uuid" : "730930EA-B5BE-457F-A2CC-98472DBBBCA1",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "未連携",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{164, 489}, {130, 22}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "link5",
+          "frame" : "{{47, 152}, {150, 32}}",
+          "uuid" : "730930EA-B5BE-457F-A2CC-98472DBBBCA1",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "未連携",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {316, 517}}",
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(0.201545,0.537453,0.297519,1.000000)",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "←設定後は✖️",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

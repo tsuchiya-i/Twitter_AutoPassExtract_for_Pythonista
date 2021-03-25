@@ -1,0 +1,366 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {289, 57}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "flex" : "",
+          "frame" : "{{110, 64}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "imageview1",
+          "uuid" : "DC85A210-559A-4C68-B617-47806523CFA0"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{303, 6}, {74, 57}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "1F67EA80-8C93-408D-A04E-5896630CAA0F",
+          "flex" : "",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(0.750000,0.964286,1.000000,1.000000)",
+          "frame" : "{{120, 98}, {80, 32}}",
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 3,
+          "title" : "シングル",
+          "action" : "single",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "single",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{385, 6}, {74, 57}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "1F67EA80-8C93-408D-A04E-5896630CAA0F",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(0.982143,0.875000,1.000000,1.000000)",
+          "frame" : "{{120, 98}, {80, 32}}",
+          "border_color" : "RGBA(0.988764,0.988764,0.988764,1.000000)",
+          "border_width" : 3,
+          "title" : "デュオ",
+          "action" : "duo",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "duo",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{303, 66}, {74, 55}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "1F67EA80-8C93-408D-A04E-5896630CAA0F",
+          "flex" : "",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(1.000000,0.910714,0.875000,1.000000)",
+          "frame" : "{{120, 98}, {80, 32}}",
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 3,
+          "title" : "スクワッド",
+          "action" : "squad",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "squad",
+          "font_size" : 12
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{385, 67}, {74, 55}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "1F67EA80-8C93-408D-A04E-5896630CAA0F",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(0.928571,1.000000,0.833333,1.000000)",
+          "frame" : "{{120, 98}, {80, 32}}",
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 3,
+          "title" : "クインテット",
+          "action" : "quinted",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "quinted",
+          "font_size" : 10
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{141, 50}, {148, 78}}",
+        "class" : "DatePicker",
+        "attributes" : {
+          "border_width" : 3,
+          "action" : "alltime_switch",
+          "mode" : 0,
+          "frame" : "{{0, 6}, {320, 216}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "class" : "DatePicker",
+          "background_color" : "RGBA(0.350187,0.350187,0.350187,1.000000)",
+          "uuid" : "484401C8-87AC-49EE-8A3D-38451A945A86",
+          "corner_radius" : 3,
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "datepicker"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{467, 6}, {52, 35}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{225, 47}, {150, 32}}",
+          "uuid" : "14EEF77C-F510-46C7-8D0A-FFDF4DAFB02A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "全時間帯",
+          "font_size" : 12,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{467, 32}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "alltime_switch",
+          "frame" : "{{275, 48}, {51, 31}}",
+          "class" : "Switch",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "value" : false,
+          "uuid" : "6C9A8AE6-EDDC-4722-BDB8-99A0FC773A32",
+          "name" : "switch"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{73, 22}, {67, 28}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label2",
+          "text_color" : "RGBA(0.878431,0.878431,0.878431,1.000000)",
+          "frame" : "{{83, 81}, {150, 32}}",
+          "uuid" : "454823DE-8C22-4496-AED2-AE4DFC6F59DE",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "現在時刻 :",
+          "font_size" : 9,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{131, 22}, {101, 28}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "nowtime",
+          "text_color" : "RGBA(0.878431,0.878431,0.878431,1.000000)",
+          "frame" : "{{83, 81}, {150, 32}}",
+          "uuid" : "AED59474-8623-49C6-AD82-7D4F706F6538",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 17,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 65}, {127, 55}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 2,
+          "action" : "room_paste",
+          "frame" : "{{118, 81}, {80, 32}}",
+          "title" : "ルーム番号貼付",
+          "uuid" : "F4682FD1-7287-40F4-A1E4-3E54048269F5",
+          "background_color" : "RGBA(0.833333,1.000000,0.833333,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 2,
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "room_paste",
+          "font_size" : 12
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{221, 22}, {74, 28}}",
+        "class" : "Button",
+        "attributes" : {
+          "border_width" : 0,
+          "action" : "now_set",
+          "frame" : "{{118, 81}, {80, 32}}",
+          "title" : "時刻更新",
+          "uuid" : "6ED15D98-3CC7-4742-9C7B-B8A178A7A961",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "update_time",
+          "font_size" : 16
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{467, 71}, {59, 20}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 12,
+          "font_name" : "<System-Bold>",
+          "frame" : "{{225, 47}, {150, 32}}",
+          "uuid" : "14EEF77C-F510-46C7-8D0A-FFDF4DAFB02A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "詳しく検索",
+          "name" : "label1",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{467, 89}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "detail_switch",
+          "frame" : "{{275, 48}, {51, 31}}",
+          "class" : "Switch",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "value" : false,
+          "uuid" : "6C9A8AE6-EDDC-4722-BDB8-99A0FC773A32",
+          "name" : "detail"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{527, 6}, {45, 35}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 12,
+          "font_name" : "<System-Bold>",
+          "frame" : "{{225, 47}, {150, 32}}",
+          "uuid" : "14EEF77C-F510-46C7-8D0A-FFDF4DAFB02A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "グロ鯖",
+          "name" : "label1",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{527, 32}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "gb_switch",
+          "frame" : "{{275, 48}, {51, 31}}",
+          "class" : "Switch",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "value" : false,
+          "uuid" : "6C9A8AE6-EDDC-4722-BDB8-99A0FC773A32",
+          "name" : "gb"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{527, 71}, {45, 20}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{225, 47}, {150, 32}}",
+          "uuid" : "14EEF77C-F510-46C7-8D0A-FFDF4DAFB02A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "少額除く",
+          "font_size" : 12,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{527, 89}, {51, 31.000000000000014}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "exlow_switch",
+          "frame" : "{{275, 48}, {51, 31}}",
+          "class" : "Switch",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "value" : false,
+          "uuid" : "6C9A8AE6-EDDC-4722-BDB8-99A0FC773A32",
+          "name" : "exlow"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {582, 132}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "サーチキーボード",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
